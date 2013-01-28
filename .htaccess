@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^watch/([a-zA-Z0-9]+)$ watch/?token=$1
+RewriteRule ^type/([a-zA-Z0-9]+)$ type/?token=$1
